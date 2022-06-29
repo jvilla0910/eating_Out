@@ -84,5 +84,5 @@ There is a difference in frequency of the races. The p-value is low 0.0721. The 
 # Discussion and Conclusion
 
 
-We can conclude that white people are more likely to eat out than black and other races. The reason we can conclude this is because we looked at and compared the charts, tables. 
+We can conclude that white people are more likely to eat out than black and other races. The reason we can conclude this is because we looked at and compared the charts, tables, and the fisher test. When we compared these 3 charts they concluded the same information which was that the white race had a higher percent then the other races. Both tests have a p-value less then 0.00721 and therefore we fail to reject the null hypothesis.   
 
