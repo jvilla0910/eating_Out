@@ -45,6 +45,19 @@ Inference: chi-squared and fisher exact tests
 
 ## Graphical summary 
 
+### Barchart
+
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
+
+By examining the chart there is not much of a difference between black and other race the percent is almost the same. We do see a difference with white race their percent is less then the others. Meaning that the white race eats out more then the other races. 
+
+## Numerical summary 
+
+
 
 
 
