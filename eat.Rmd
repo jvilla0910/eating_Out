@@ -57,9 +57,23 @@ By examining the chart there is not much of a difference between black and other
 
 ## Numerical summary 
 
+```{r}
+table1 <- xtabs(~race + eatout,data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+This table shows that there is not much of a difference between black race 69.04 and other races 72.12. We do see a slight significant difference with the white race 83.11, so when we compare 69.04 to 83.11 we see that there is an increase in white race eating out compared to the black and other races.  
 
+# Results 
 
+## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+Chi-squared test shows that 
 
 
