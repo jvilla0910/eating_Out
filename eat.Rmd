@@ -46,10 +46,9 @@ The response variable is categorical. Which is, did you dine out last week? The 
 ```{r}
 barchartGC(~race + eatout,data=mydata)
 barchartGC(~race + eatout,data=mydata, type="percent")
+``` 
 
-```
-
-By examining the chart there is not much of a difference between black and other race the percent is almost the same. We do see a difference with white race their percent is less then the others. Meaning that the white race eats out more then the other races. 
+White tends to be the outlier in this bar plot. Since their percent of dining out is the highest (close to 85% of white people dine out according to this bar plot). Black & other are relatively the same with 'other' only being a slightly higher. There is a clear difference so far since one of the 3 examples is way higher than the other 2. 
 
 ## Numerical summary 
 
