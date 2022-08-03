@@ -34,12 +34,8 @@ mydata <- na.omit(mydata)
 
 # Methods
 
-Response variable is categorical: Dine out last week? Yes or no?
+The response variable is categorical. Which is, did you dine out last week? The explanatory variable is race: another categorical variable. The reponse variavle fits under yes or no thus, it's categorical. For race, we know from past experience that it is for sure a categorical variable. So we use cat~cat. Thus, we'll a chi squared test and a fisher exact test. The inferential test will be done by the chi squared test & the fisher exact test. 
 
-Explanatory variable is race, it, too, is a categorical variable. 
-So we use cat~cat 
-
-Inference: chi-squared and fisher exact tests 
 
 # Descripitve summaries 
 
