@@ -52,14 +52,12 @@ White tends to be the outlier in this bar plot. Since their percent of dining ou
 
 ## Numerical summary 
 
-```{r}
-table1 <- xtabs(~race + eatout,data=mydata)
+````{r}
+table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
-This table shows that there is not much of a difference between black race 69.04 and other races 72.12. We do see a slight significant difference with the white race 83.11, so when we compare 69.04 to 83.11 we see that there is an increase in white race eating out compared to the black and other races.  
-
-# Results 
+Based off of the data table on top, more white people dine out compared to the other two (black & other). White's dine out more by 14.07 compared to black people. White's dine out more by 10.99 compared to 'other' people. This data table only further proves that there is a difference between the 3 options. White dines out more. 
 
 ## Inferential results 
 
