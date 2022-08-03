@@ -67,12 +67,14 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-Chi-squared test shows that there is a significant difference of the white race eating out compared to the other races.The p-value is 0.000002287. The p-value is way too small so we have to reject the null hypothesis. This shows that there is a difference between race and how frequent they dine out. 
+The p-value is  0.000002287. The p-value is too small so we have to reject the null hypothesis. The p-value for the Fisher's Exact test is .000004633. This only further supports my choice to reject the null hypothesis. There IS a difference between race and how frequent they dine out. That's what the chi squared test gave us. 
 
 ```{r}
 fisherXY(mydata$race,mydata$eatout)
 ```
-There is a difference in frequency of the races. The p-value is low 0.0721. The other p-value is 1.183e-05. Since the p-value is less than 0.00721 we fail to reject the null hypothesis.   
+
+There is a statistical difference between at least two races in regard to the frequency of eating out. I reject the null hypothesis since the p-value is 0.000002287, much less than 0.05.  When comparing white to black individuals,  whites tend to eat out more frequently with a ratio of  2.2:1 when compared to other individuals. Whites are 1.9 times more likely to eat out. By using the fisher exact test, I am able to show that whites are more likely to eat out compared to blacks and others. Therefore, with certainty, I am able to reject the null hypothesis. Since the fisher exact test didn't print out anything for black & other.They have no statistical difference. That's the difference: White is the clear outlier. Black and other aren't different enough to have a statistical result of their own. While the white race clearly has different results compared to black & other. 
+  
 
 # Discussion and Conclusion
 
